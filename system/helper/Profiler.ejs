@@ -1,0 +1,33 @@
+<style>
+    div#profiler{
+        padding: 5px 0;
+        width: 100%;
+        background: orange;
+    }
+    fieldset{
+        margin: 15px;
+        padding: 10px;
+    }
+</style>
+<div id="profiler">
+    <fieldset>
+        <legend>GET DATA</legend>
+        <h2><%= JSON.stringify(profilerData.getData); %></h2>
+    </fieldset>
+    <fieldset>
+        <legend>POST DATA</legend>
+        <h2><%= JSON.stringify(profilerData.postData); %></h2>
+    </fieldset>
+    <fieldset>
+        <legend>METHOD</legend>
+        <h2><%= JSON.stringify(profilerData.method); %></h2>
+    </fieldset>
+    <fieldset>
+        <legend>SESSION DATA</legend>
+        <h2><%= JSON.stringify(profilerData.sessions); %></h2>
+    </fieldset>
+    <fieldset>
+        <legend>QUERIES</legend>
+        <h2><%= JSON.stringify(profilerData.queries); %></h2>
+    </fieldset>
+</div>

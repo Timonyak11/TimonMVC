@@ -1,0 +1,70 @@
+*{
+    /* outline: 1px dotted red; */
+    margin: 0px;
+    padding: 0px;
+}
+
+form{
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+form h1{
+    margin: 10px 0 10px 15px;
+}
+
+label{
+    display: inline-block;
+    margin: 12px 15px;
+}
+
+input[type=submit]{
+    display: block;
+    margin-bottom: 10px;
+    padding: 3px 10px;
+    background: white;
+}
+
+input[type=submit]#login{
+    margin-left: 320px;
+}
+
+input[type=submit]#register{
+    margin-left: 310px;
+}
+
+p.errors{
+    color: red;
+    margin: 0px auto;
+    text-align: center;
+}
+
+p.success{
+    color: green;
+    margin: 0px auto;
+    text-align: center;
+}
+
+h1#greet{
+    margin: 20px 0 0 10px;
+}
+
+div#userInfo{
+    border: 1px solid black;
+    padding: 0 10px;
+    width: 300px;
+    margin: 10px;
+}
+
+p.user{
+    margin: 15px 0;
+}
+
+a#logoff{
+    font-size: 20px;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}

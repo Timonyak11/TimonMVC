@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Welcome</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <h1 id="greet">Welcome! <%= data[0].first_name; %>!</h1>
+        <a href="/logoff" id="logoff">Log off</a>
+        <div id="userInfo">
+            <p class="user">First Name: <%= data[0].first_name; %></p>
+            <p class="user">Last Name: <%= data[0].last_name; %></p>
+            <p class="user">Email Addres: <%= data[0].email; %></p>
+        </div>
+        <%- renderProfiler %>
+    </body>
+</html>
